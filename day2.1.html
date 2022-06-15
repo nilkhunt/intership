@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>hover element - selector or chil combine</title>
+    <Style type="text/css">
+        #mainUL li ul li {
+            display: none;
+        }
+
+        #mainUL li:hover ul li {
+            display: block;
+        }
+
+        #mainUL li:hover ul li ul lu {
+            display: none
+        }
+
+        #MainUL li ul li:hover ul li {
+            display: block;
+        }
+
+        #MainUL li ul li:hover ul li ul li {
+            display: none;
+        }
+
+        #MainUL li ul li ul li:hover ul li {
+            display: block;
+        }
+
+        #MainUL li ul li ul li ul li:hover ul li {
+            display: block;
+        }
+
+        #MainUL li ul li:hover ul li {
+            display: block;
+        }
+    </Style>
+</head>
+
+<body>
+    <ul id="mainUL">
+        <li>Google
+            <ul>
+                <li>Gmail
+                    <ul>
+                        <li>sign in</li>
+                        <li>sign up
+                            <ul>
+                                <li>sign in admin</li>
+                                <li>sign in member</li>
+                            </ul>
+                        </li>   
+                    </ul>
+                </li>
+                <li>instragram</li>
+                <li>cdrive</li>
+                <li>Youtube</li>
+            </ul>
+        </li>
+        <li>Facebook
+            <ul>
+                <li>login</li>
+                <li>logout</li>
+            </ul>
+
+        </li>
+        <li>Microsoft
+            <ul>
+                <li>abc</li>
+                <li>def</li>
+            </ul>
+        </li>
+        <li>amezon
+            <ul>
+                <li>order</li>
+                <li>pyment
+                    <ul>
+                        <li>online</li>
+                        <li>case</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>flifcart</li>
+    </ul>
+</body>
+
+</html>
